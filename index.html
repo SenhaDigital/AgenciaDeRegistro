@@ -39,17 +39,17 @@
                                     consultar processo de registro </p>
                             </div>
                             <div class="card-body py-5 px-md-10 ">
-                                <form>
+                                <form action="php/index.php" method="post">
                                     <div class="form-outline mb-4">
                                         <label class="form-label text-muted" for="form3Example3">Número do CPF sem
                                             traços ou ponto</label>
-                                        <input type="text" id="form3Example3" class="form-control" />
+                                        <input type="text" id="form3Example3" name="documento" class="form-control" />
                                     </div>
 
                                     <div class="form-outline mb-4">
                                         <label class="form-label text-muted" for="form3Example4">Número do Protocolo
                                             Recebido</label>
-                                        <input type="text" id="form3Example4" class="form-control" />
+                                        <input type="text" id="form3Example4" required name="protocolo" class="form-control" />
                                     </div>
 
                                     <button type="submit" class="btn btn-primary btn-block mb-4">
